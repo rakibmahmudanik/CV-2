@@ -10,6 +10,7 @@
   /* font-family: "Lato", sans-serif; */
   font-family: "Quicksand", sans-serif;
   text-decoration: none;
+  outline: 0;
 }
 :root {
   --left-border: tomato;
@@ -203,7 +204,6 @@ ion-icon {
 }
 
 .skills {
-  text-align: right;
   padding-top: 10px;
   margin-bottom: 1.5rem;
   border-radius: 5px;
@@ -211,13 +211,13 @@ ion-icon {
 }
 .english {
   width: 90%;
-} /* Green */
+}
 .bangla {
   width: 100%;
-} /* Blue */
+}
 .hindi {
   width: 65%;
-} /* Red */
+}
 .urdu {
   width: 60%;
 }
@@ -333,7 +333,7 @@ ion-icon {
 
 /* ---Professional skills starts here--- */
 
-.skills-name {
+/* .skills-name {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -410,14 +410,90 @@ ion-icon {
 .percent .num h2 span {
   font-size: 1.3rem;
 }
+
 .text {
   font-weight: 900;
   letter-spacing: 1px;
   font-size: 0.9rem;
   margin-top: 0.3rem;
   color: var(--text-color);
+} */
+.skills-name2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  column-gap: 3rem;
+}
+.progress-bar2 {
+  width: 100%;
+  background-color: rgba(0, 187, 255, 0.2);
+  border-radius: 8px;
 }
 
+.skills2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 15px;
+  margin-bottom: 0.1rem;
+  border-radius: 10px;
+  background-color: var(--blue-color);
+}
+.skills2 span {
+  position: absolute;
+  inset: 0;
+  text-align: right;
+  margin-right: 0.5rem;
+  color: rgb(237, 250, 255);
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.skill-icon {
+  font-size: 3rem;
+  color: var(--blue-color);
+}
+
+.skill .letter-icon {
+  width: 45px;
+  height: 40px;
+  background-color: var(--blue-color);
+  border-radius: 5px;
+}
+
+.letter-icon p {
+  display: inline-block;
+  color: white;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.photoshop {
+  margin-bottom: 0.5rem;
+}
+.html {
+  width: 95%;
+}
+.css {
+  width: 90%;
+}
+.js {
+  width: 65%;
+}
+.ps {
+  width: 80%;
+}
+
+.ai {
+  width: 90%;
+}
 /* ---Professional skills starts here--- */
 
 /* ====Right side ends here=== */
